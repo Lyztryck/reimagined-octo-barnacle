@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    /* position: relative;
+    overflow-x: hidden; */
+    background-image: url(./Assets/Background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    margin: 15px 15px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-in {
+    margin-top: 8px;
+    text-decoration: none;
+    color: gray;
+}
+
+.search-logo {
+    margin-top: 5px;
+    margin-left: 75%;
+}
+
+.contact-link {
+    background-color: black;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border: 3px solid black;
+    font-size: smaller;
+    text-decoration: none;
+}
+
+/* Intro */
+
+.intro {
+    display: block;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+}
+
+.intro-text p {
+    line-height: normal;
+    font-size: 13px;
+}
+
+.intro-contact-link {
+    background-color: black;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border: 3px solid black;
+    font-size: smaller;
+    text-decoration: none;
+}
+
+.intro-img {
+    margin-top: 4rem;
+    height: 100%;
+    width: 68%;
+    margin-left: 17%;
+}
+
+
+/* Article */ 
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: white;
+}
+
+.article-text {
+    width: 900px;
+    margin-left: 17%;
+    margin-top: 8%;
+    line-height: 30px;
+}
+
+.article-text h2 {
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+.article-text p {
+    margin-bottom: 8px;
+    line-height: 90%;
+}
+
+.img-container {
+    height: 75%;
+    width: 75%;
+}
+
+.img-container img {
+    width: 45%;
+    margin-left: 23%;
+    margin-top: 5%;
+    position: relative;
+}
+
+.article-contact-link {
+    margin-top: 10%;
+    background-color: black;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border: 3px solid black;
+    font-size: smaller;
+    text-decoration: none;
+}
+
+/* footer */
+
+footer {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-img {
+    margin-left: 12px;
+}
+
+.terms-condition {
+    margin-left: 44%;
+    font-size: 14px;
+}
+
+.terms-condition a {
+    text-decoration: none;
+    color: gray;
+}
+
+.privacy {
+    margin-right: 15%;
+    margin-left: -13%;
+    font-size: 14px;
+}
+
+.privacy a {
+    text-decoration: none;
+    color: gray;
+}
+
+/* Media Queries */
